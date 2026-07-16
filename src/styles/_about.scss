@@ -9,6 +9,17 @@
 
 .tech {
   margin: 10px;
+  i {
+    margin: 0 6px;
+    color: $main;
+  }
+  img {
+    width: 1em;
+    height: 1em;
+    margin: 0 6px;
+    vertical-align: middle;
+    filter: brightness(0);
+  }
 }
 
 .user {
