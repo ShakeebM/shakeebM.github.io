@@ -38,43 +38,22 @@
   }
 }
 
-.tags {
+.tech-icons {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 10px;
-  span {
-    font-size: 0.75rem;
-    padding: 2px 8px;
-    border-radius: 12px;
-    background-color: rgba($purple, 0.12);
+  align-items: center;
+  gap: 12px;
+  font-size: 1.6rem;
+  line-height: 1;
+  i {
+    line-height: 1;
+  }
+  .fa {
     color: $purple;
   }
-}
-
-.project-link {
-  display: inline-block;
-  margin: 0;
-  padding: 5px 10px;
-  font-size: 0.85rem;
-  color: $main;
-  background-color: transparent;
-  border: 1px solid $main;
-  border-radius: 10px;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-  cursor: pointer;
-  transition: color 0.3s ease-out,
-              background-color 0.3s ease-out,
-              border-color 0.3s ease-out;
-  &:hover,
-  &:active {
-    background-color: $purple;
-    border-color: $purple;
-    color: #fff;
-    transition: color 0.3s ease-in,
-                background-color 0.3s ease-in,
-                border-color 0.3s ease-in;
+  img {
+    width: 1.6rem;
+    height: 1.6rem;
+    display: block;
   }
 }
