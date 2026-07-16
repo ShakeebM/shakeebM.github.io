@@ -42,18 +42,18 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 12px;
-  font-size: 1.6rem;
+  gap: 14px;
+  font-size: 1.7rem;
   line-height: 1;
+  color: $main;
   i {
     line-height: 1;
-  }
-  .fa {
-    color: $purple;
+    color: $main;
   }
   img {
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 1.7rem;
+    height: 1.7rem;
     display: block;
+    filter: brightness(0);
   }
 }
